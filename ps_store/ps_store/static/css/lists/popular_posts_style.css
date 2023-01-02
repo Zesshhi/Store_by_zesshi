@@ -1,0 +1,104 @@
+.popular-posts {
+    background-color: #fff;
+    padding: 10px;
+}
+.popular-posts h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.popular-posts a{
+    text-decoration: none;
+    color: #6495ed;
+    font-size: 20px;
+}
+@media (max-width: 991px) {
+    .popular-posts h2{
+        font-size: 14px;
+    }
+    .popular-posts img{
+        max-width: 120px;
+    }
+    .popular-posts a{
+        font-size: 17px;
+    }
+}
+@media (max-width: 767px){
+    .popular-posts h2{
+        font-size: 9px;
+    }
+    .popular-posts img{
+        max-width: 80px;
+    }
+    .popular-posts a{
+        font-size: 12px;
+    }
+}
+@media (max-width: 575px) {
+    .popular-posts h2{
+        font-size: 8px;
+    }
+    .popular-posts img{
+        max-width: 70px;
+    }
+    .popular-posts a{
+        font-size: 10px;
+    }
+}
+@media (max-width: 507px) {
+    .popular-posts a{
+        font-size: 8px;
+    }
+    .popular-posts h2{
+        font-size: 7px;
+    }
+
+}
+@media (max-width: 450px){
+    .popular-posts h2{
+        font-size: 6px;
+    }
+    .popular-posts img{
+        max-width: 60px;
+    }
+    .popular-posts a{
+        font-size: 7px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 419px) {
+    .popular-posts a{
+        font-size: 6px;
+    }
+}
+@media (max-width: 397px) {
+    .popular-posts h2{
+        font-size: 5px;
+    }
+    .popular-posts img{
+        max-width: 50px;
+    }
+    .popular-posts a{
+        font-size: 5px;
+    }
+}
+@media (max-width: 363px){
+    .popular-posts h2{
+        font-size: 4px;
+    }
+    .popular-posts img{
+        max-width: 40px;
+    }
+}
+@media (max-width: 350px){
+    .popular-posts h2{
+        font-size: 3px;
+    }
+    .popular-posts a{
+        font-size: 4px;
+    }
+}
+@media (max-width: 315px){
+    .popular-posts a{
+        font-size: 3px;
+    }
+}

@@ -1,0 +1,36 @@
+@media (max-width: 767px){
+    .profile-title{
+        font-size: 25px;
+    }
+}
+@media (max-width: 518px){
+    .profile-title{
+        font-size: 20px;
+    }
+}
+@media (max-width: 495px){
+    .profile-text{
+        font-size: 13px;
+    }
+}
+@media (max-width: 425px){
+    .profile-title{
+        font-size: 15px;
+    }
+    .profile-text{
+        font-size: 11px;
+    }
+}
+@media (max-width: 367px){
+    .profile-text{
+        font-size: 9px;
+    }
+}
+@media (max-width: 334px){
+    .profile-title{
+        font-size: 12px;
+    }
+    .profile-text{
+        font-size: 8px;
+    }
+}

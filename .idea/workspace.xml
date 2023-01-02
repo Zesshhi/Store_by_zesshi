@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fa6681f-ef7d-450d-9b35-8bf17dec5264" name="Changes" comment="Main update by Zesshi #1">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ps_store/ps_store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ps_store/ps_store/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Gherkin feature file" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kirill &lt;96735975+zesshhi@users.noreply.github.com&gt;" />
+        <option value="root &lt;root@desktop-3q9ml7c.localdomain&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="a75077d5-7a8d-4c56-8fca-0d8bc16ee8c3" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0f90df2b-c67a-4876-896e-c4a17c6e394c" />
+        <option name="url" value="https://github.com/Zesshhi/Store_by_zesshi.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IGf18yX7MUx9VPK8CYFBtJ2FLH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Shalltear/Desktop/Python/Django_ps4_store",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shalltear\Desktop\Python\Django_ps4_store\ps_store\cart" />
+      <recent name="C:\Users\Shalltear\Desktop\Python\Django_ps4_store\ps_store\cart\templates\cart" />
+      <recent name="C:\Users\Shalltear\Desktop\Python\Django_ps4_store\ps_store" />
+      <recent name="C:\Users\Shalltear\Desktop\Python\Django_ps4_store\ps_store\ps_store\static\css\other" />
+      <recent name="C:\Users\Shalltear\Desktop\Python\Django_ps4_store\ps_store\ps_store\static\css\main_pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fa6681f-ef7d-450d-9b35-8bf17dec5264" name="Changes" comment="" />
+      <created>1669812623734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669812623734</updated>
+      <workItem from="1670010796720" duration="258000" />
+      <workItem from="1670011335644" duration="1378000" />
+      <workItem from="1670013824010" duration="910000" />
+      <workItem from="1670068973624" duration="6012000" />
+      <workItem from="1670170588043" duration="5439000" />
+      <workItem from="1670236538102" duration="2914000" />
+      <workItem from="1670244467393" duration="6347000" />
+      <workItem from="1670323010497" duration="11908000" />
+      <workItem from="1670431287202" duration="1387000" />
+      <workItem from="1670502745192" duration="7684000" />
+      <workItem from="1670532934907" duration="4954000" />
+      <workItem from="1670672610111" duration="45000" />
+      <workItem from="1670672718221" duration="3209000" />
+      <workItem from="1670756521217" duration="15098000" />
+      <workItem from="1670880890936" duration="1000" />
+      <workItem from="1670881254365" duration="616000" />
+      <workItem from="1670963776790" duration="7598000" />
+      <workItem from="1671013714263" duration="17305000" />
+      <workItem from="1671111659718" duration="11399000" />
+      <workItem from="1671283171900" duration="12460000" />
+      <workItem from="1671303624735" duration="3523000" />
+      <workItem from="1671360355800" duration="8000" />
+      <workItem from="1671361975220" duration="10405000" />
+      <workItem from="1671443552029" duration="13208000" />
+      <workItem from="1671466205013" duration="9015000" />
+      <workItem from="1671650854488" duration="1267000" />
+      <workItem from="1671652154031" duration="6101000" />
+      <workItem from="1671715585090" duration="18424000" />
+      <workItem from="1671827125136" duration="4806000" />
+      <workItem from="1671973079545" duration="21444000" />
+      <workItem from="1672050834886" duration="7659000" />
+      <workItem from="1672074947610" duration="998000" />
+      <workItem from="1672076006190" duration="8000" />
+      <workItem from="1672076035327" duration="502000" />
+      <workItem from="1672076609061" duration="8595000" />
+      <workItem from="1672100680946" duration="4545000" />
+      <workItem from="1672165640743" duration="9424000" />
+      <workItem from="1672255267068" duration="5752000" />
+      <workItem from="1672304625503" duration="7123000" />
+      <workItem from="1672343825813" duration="5556000" />
+      <workItem from="1672395182336" duration="5475000" />
+      <workItem from="1672428099775" duration="3227000" />
+      <workItem from="1672493213387" duration="514000" />
+      <workItem from="1672592398345" duration="10512000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1672074635238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672074635238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New changes #1">
+      <created>1672075278378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672075278378</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New changes #1">
+      <created>1672075345789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672075345789</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New changes #1">
+      <created>1672075741783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672075741783</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update vcs.xml">
+      <created>1672076814033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672076814033</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Main update by Zesshi">
+      <created>1672601116119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672601116119</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Main update by Zesshi">
+      <created>1672616874814</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672616874814</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Main update by Zesshi #1">
+      <created>1672616973054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672616973054</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Main update by Zesshi #1">
+      <created>1672617292172</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672617292172</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Main update by Zesshi #1">
+      <created>1672617363736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672617363736</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Main update by Zesshi #1">
+      <created>1672617438469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672617438469</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="19b9e628-57fd-447a-bb3c-7876a433a428">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Run server" />
+    <MESSAGE value="New changes #1" />
+    <MESSAGE value="Update vcs.xml" />
+    <MESSAGE value="Main update by Zesshi" />
+    <MESSAGE value="Main update by Zesshi #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main update by Zesshi #1" />
+  </component>
+</project>
