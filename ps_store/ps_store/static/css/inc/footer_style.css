@@ -1,10 +1,4 @@
-@media only screen and (max-width: 1199px) {
-    .nav-main-txt{
-        font-size: 20px;
-    }
-}
-@media only screen and (max-width: 767px){
-    .nav-main-txt{
-        font-size: 20px;
-    }
+.footer-contact {
+    color: #6495ed;
+    font-weight: bold;
 }

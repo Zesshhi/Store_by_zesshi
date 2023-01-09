@@ -30,7 +30,7 @@ urlpatterns = [
     path('docs/privacy/', docs_privacy, name='docs_privacy'),
 
 
-    path('profile/', profile, name='profile')
+    path('profile/', profile, name='profile'),
 
 ]
 

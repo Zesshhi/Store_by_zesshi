@@ -1,104 +1,40 @@
-.popular-posts {
-    background-color: #fff;
-    padding: 10px;
+.popular img {
+    max-width: 180px;
 }
-.popular-posts h2{
-    font-size: 22px;
-    font-weight: bold;
-}
-.popular-posts a{
-    text-decoration: none;
-    color: #6495ed;
-    font-size: 20px;
-}
-@media (max-width: 991px) {
-    .popular-posts h2{
-        font-size: 14px;
-    }
-    .popular-posts img{
-        max-width: 120px;
-    }
-    .popular-posts a{
-        font-size: 17px;
-    }
-}
-@media (max-width: 767px){
-    .popular-posts h2{
-        font-size: 9px;
-    }
-    .popular-posts img{
-        max-width: 80px;
-    }
-    .popular-posts a{
-        font-size: 12px;
-    }
-}
-@media (max-width: 575px) {
-    .popular-posts h2{
-        font-size: 8px;
-    }
-    .popular-posts img{
-        max-width: 70px;
-    }
-    .popular-posts a{
-        font-size: 10px;
-    }
-}
-@media (max-width: 507px) {
-    .popular-posts a{
-        font-size: 8px;
-    }
-    .popular-posts h2{
-        font-size: 7px;
-    }
 
+.popular {
+    margin: 1rem auto;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    transition-property: transform;
+    transition-duration: .5s;
 }
-@media (max-width: 450px){
-    .popular-posts h2{
-        font-size: 6px;
-    }
-    .popular-posts img{
-        max-width: 60px;
-    }
-    .popular-posts a{
-        font-size: 7px;
-        font-weight: bold;
-    }
+
+.popular:hover {
+    transform: scale(1.1);
 }
-@media (max-width: 419px) {
-    .popular-posts a{
-        font-size: 6px;
-    }
+
+.popular:last-child {
+    border: none
 }
-@media (max-width: 397px) {
-    .popular-posts h2{
-        font-size: 5px;
-    }
-    .popular-posts img{
-        max-width: 50px;
-    }
-    .popular-posts a{
-        font-size: 5px;
-    }
+
+.popular p {
+    color: #000;
+    margin: 10px auto 1rem;
+    font-size: 0.8rem;
 }
-@media (max-width: 363px){
-    .popular-posts h2{
-        font-size: 4px;
-    }
-    .popular-posts img{
-        max-width: 40px;
-    }
+
+.popular-card {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    position: relative;
+    padding: 15px;
+    box-shadow: 0px 0px 25px -14px rgba(34, 60, 80, 0.2);
+    margin-bottom: 1.5rem;
+    border: none;
 }
-@media (max-width: 350px){
-    .popular-posts h2{
-        font-size: 3px;
-    }
-    .popular-posts a{
-        font-size: 4px;
-    }
-}
-@media (max-width: 315px){
-    .popular-posts a{
-        font-size: 3px;
-    }
+
+.popular-card img {
+    width: 100%;
+    border-radius: 15px;
 }

@@ -32,6 +32,3 @@ def cart_detail(request):
 
 def cart_payment(request):
     return redirect(docs_info)
-
-
-

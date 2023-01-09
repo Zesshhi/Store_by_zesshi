@@ -1,89 +1,51 @@
-.detail-input{
-    width: 8%;
-    font-weight: bold;
-    text-align: center;
-    padding: 0;
-    line-height: 10px;
-    outline: none;
-}
-.detail-a{
-    text-decoration: none;
-}
-.detail-button{
-    background-color: #fff;
-    border: 2px solid #6495ed; color: #6495ed;
-}
 body {
-  margin: 0;
-  background-color: #e3e1e3;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    background-color: #f3f3f3;
+    font-family: 'Nunito', sans-serif
 }
-main {
-  flex-grow: 1;
+
+.main-detail {
+    background-color: #fff;
 }
-footer {
-  flex-shrink: 0;
+
+.card-detail {
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 0px 25px -14px rgba(34, 60, 80, 0.2);
+    margin-bottom: 1.5rem;
+    border: none;
+    padding: 0;
 }
-@media (max-width: 1400px) {
-    .num{
-        font-size: 12px;
-    }
-    .ruble-class{
-        width: 16px;
-    }
+
+.summary {
+    background-color: #6495ed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4vh;
+    color: #fff;
 }
-@media (max-width: 1400px) {
-    .num{
-        font-size: 10px;
-    }
-    .ruble-class{
-        width: 15px;
-    }
-    .detail-price{
-        font-size: 15px;
-    }
-}
-@media (max-width: 991px){
-    .detail-price{
-        font-size: 10px;
-    }
-    .detail-img img{
-        max-width: 150px;
-    }
-    .detail-txt{
-        font-size: 13px;
-        padding: 5px;
+
+@media (max-width: 415px) {
+    .summary, .card {
+        border-radius: 0px;
     }
 }
-@media (max-width: 767px){
-    .detail-img img{
-        max-width: 100px;
-    }
-    .detail-txt{
-        font-size: 8px;
-    }
-    .detail-button{
-        font-size: 10px;
-    }
+
+.main-cart {
+    padding: 4vh;
 }
-@media (max-width: 505px){
-    .detail-img img{
-        max-width: 80px;
-    }
-    .detail-txt{
-        font-size: 6px;
-    }
+
+.cart-item-img {
+    max-width: 100px
 }
-@media (max-width: 395px){
-    .detail-img img{
-        max-width: 80px;
-    }
-    .detail-txt{
-        font-size: 6px;
-    }
-    h2{
-        font-size: 15px;
-    }
+
+.cart-i {
+    box-sizing: border-box;
+    display: block;
+    background-image: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    max-width: 100%;
 }

@@ -146,6 +146,7 @@ def order_create(request):
     return render(request, 'store/orders/create.html', {'cart': cart, 'form': form})
 
 
+
 def export_to_csv(modeladmin, request, queryset):
     opts = modeladmin.model._meta
     response = HttpResponse(content_type='text/csv')
@@ -170,29 +171,30 @@ export_to_csv.short_description = 'Export to CSV'
 
 
 def docs_info(request):
-    return render(request, 'store/main_pages/docs_info.html')
+    return render(request, 'store/docs_info/docs_info.html')
 
 
 def docs_agreement(request):
-    return redirect(docs_info)
+    return render(request, 'store/docs_info/agreement.html')
 
 
 def docs_personal(request):
-    return redirect(docs_info)
+    return render(request, 'store/docs_info/personal_data.html')
 
 
 def docs_privacy(request):
-    return redirect(docs_info)
+    return render(request, 'store/docs_info/privacy.html')
 
 
 @login_required
 def profile(request):
-    user_orders = Order.objects.filter(user=request.user)
-    user_order_item = OrderItem.objects.all()
+    user_main_orders = Order.objects.filter(username=request.user.username)
+
 
     data = {
-        'user_orders': user_orders,
-        'user_order_item': user_order_item,
+        'user_main_orders': user_main_orders,
     }
     return render(request, 'store/main_pages/profile.html', data)
+
+
 

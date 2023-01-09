@@ -9,6 +9,7 @@ from .views import export_to_csv
 
 class PostAdminForm(forms.ModelForm):
     content = forms.CharField(widget=CKEditorUploadingWidget())
+
     class Meta:
         model = Posts
         fields = '__all__'
@@ -31,7 +32,10 @@ class PostsAdmin(admin.ModelAdmin):
     search_fields = ('title',)
     list_filter = ('genre', 'platform')
     readonly_fields = ('views', 'get_photo')
-    fields = ('title', 'slug', 'genre', 'platform', 'available','content', 'price', 'photo', 'get_photo', 'views', 'version_of_platform')
+    fields = ('title', 'slug', 'genre', 'platform', 'available', 'description', 'content', 'release_date', 'price',
+              'photo',
+              'get_photo', 'views',
+              'version_of_platform')
 
     def get_photo(self, obj):
         if obj.photo:
@@ -65,7 +69,6 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ['paid', 'created', 'updated']
     inlines = [OrderItemInline]
     actions = [export_to_csv]
-
 
 
 admin.site.register(Genre, GenreAdmin)

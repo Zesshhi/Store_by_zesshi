@@ -55,6 +55,7 @@ class Platform(models.Model):
 class Posts(models.Model):
     title = models.CharField(max_length=255, verbose_name='Название игры')
     slug = models.SlugField(max_length=255, verbose_name='Url', unique=True)
+    description = models.TextField(blank=True, verbose_name='Описание')
     content = models.TextField(blank=True, verbose_name='Контент')
     photo = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True, verbose_name='Фото')
     views = models.IntegerField(default=0, verbose_name='Количество просмотров')
@@ -63,6 +64,7 @@ class Posts(models.Model):
     platform = models.ManyToManyField(Platform, blank=True, related_name='posts')
     available = models.BooleanField(default=True, verbose_name ='Наличие')
     version_of_platform = models.CharField(max_length=55, verbose_name='Версия для label', default='PS4')
+    release_date = models.DateTimeField(default='2023-01-01')
 
 
     def __str__(self):
@@ -94,14 +96,13 @@ class Carousel(models.Model):
 
 
 class Order(models.Model):
-    user = models.ForeignKey(User, on_delete=models.PROTECT, related_name='orders', verbose_name='Заказы',
-                             default=1)
     username = models.CharField(max_length=50, verbose_name='Имя пользователя')
     email = models.EmailField()
     vk_or_telegram = models.CharField(max_length=255, verbose_name='Ссылка для связи', default='vk.com')
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     paid = models.BooleanField(default=False, verbose_name='Оплачено')
+
 
     class Meta:
         ordering = ['-created',]
@@ -117,6 +118,11 @@ class Order(models.Model):
         return sum(item.get_cost() for item in self.items.all())
 
 
+    def get_total_price(self):
+        return sum(products.price for products in OrderItem.objects.filter(order=self.id))
+
+
+
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, related_name='order', on_delete=models.CASCADE)
     product = models.ForeignKey(Posts, related_name='order_items', on_delete=models.CASCADE)
@@ -127,4 +133,5 @@ class OrderItem(models.Model):
 
     def get_cost(self):
         return self.price
+
 

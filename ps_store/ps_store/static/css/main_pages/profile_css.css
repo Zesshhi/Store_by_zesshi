@@ -1,36 +1,62 @@
-@media (max-width: 767px){
-    .profile-title{
-        font-size: 25px;
-    }
+body {
+    background-color: #f3f3f3;
+    font-family: 'Nunito', sans-serif
 }
-@media (max-width: 518px){
-    .profile-title{
-        font-size: 20px;
-    }
+
+.card {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    position: relative;
+    padding: 15px;
+    box-shadow: 0px 0px 25px -14px rgba(34, 60, 80, 0.2);
+    margin-bottom: 1.5rem;
+    border: none;
 }
-@media (max-width: 495px){
-    .profile-text{
-        font-size: 13px;
-    }
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: #a0bad5;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 50%;
+    float: left;
 }
-@media (max-width: 425px){
-    .profile-title{
-        font-size: 15px;
-    }
-    .profile-text{
-        font-size: 11px;
-    }
+
+.bg {
+    padding: 1rem;
+    border-radius: 15px;
 }
-@media (max-width: 367px){
-    .profile-text{
-        font-size: 9px;
-    }
+
+.user-info {
+    margin-left: 1rem;
+    display: inline-block;
 }
-@media (max-width: 334px){
-    .profile-title{
-        font-size: 12px;
-    }
-    .profile-text{
-        font-size: 8px;
-    }
+
+.login {
+    margin: 0;
+    font-weight: 600;
+}
+
+.s {
+    font-size: 0.9rem;
+    color: #666
+}
+
+.g {
+    background: #efefef;
+}
+
+.gl {
+    background: #f5f5f5;
+}
+
+.product img {
+    width: 50px;
+    border-radius: 15px;
+    border: 1px solid #efefef
 }
